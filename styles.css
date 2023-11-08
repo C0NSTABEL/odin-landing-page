@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+.main-div {
+    display: flex;
+    justify-content: center;
+}
+
+.content-div {
+    width: 1100px;
+    max-width: 100%;
+}
+
 .flex-row {
     display: flex;
 }
