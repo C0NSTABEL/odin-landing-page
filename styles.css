@@ -26,11 +26,36 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
-header {
+#hero {
     background-color: #1f2937;
     color: white;
+}
+
+#div2 {
+    background-color: rgb(199, 229, 255);
+}
+
+#footer {
+    background-color: rgb(44, 50, 57);
+    color: white;
+    padding: 8px 48px;
+    align-items: center;
+    flex: 1;
+}
+
+.signup-div {
+    background-color: #006eff;
+    color: white;
+    padding: 12px 12px;
+    border-radius: 8px;
+    width: 700px;
+}
+
+.footer {
+    justify-content: center;
 }
 
 .header-bar {
