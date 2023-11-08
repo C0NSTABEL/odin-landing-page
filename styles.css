@@ -17,6 +17,11 @@ body {
     flex-direction: column;
 }
 
+header {
+    background-color: #1f2937;
+    color: white;
+}
+
 .header-bar {
     justify-content: space-between;
 }
