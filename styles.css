@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: Roboto, sans-serif;
 }
 
 .main-div {
@@ -41,7 +44,17 @@ body {
 
 .hero-content {
     justify-content: space-between;
-    margin: 16px 0;
+    margin: 80px 0 60px 0;
+    gap: 50px;
+}
+
+.hero-text {
+    max-width: 450px;
+    min-width: 220px;
+}
+
+.hero-text h2 {
+    font-size: 32px;
 }
 
 .hero-content img {
@@ -50,8 +63,8 @@ body {
     object-fit: cover;
 }
 
-#div2 {
-    background-color: rgb(199, 229, 255);
+#div1 {
+    margin: 32px 0;
 }
 
 .img-div h3 {
@@ -80,6 +93,10 @@ body {
     border: 8px royalblue;
     border-style: solid;
     border-radius: 10%;
+}
+
+#div2 {
+    background-color: rgb(199, 229, 255);
 }
 
 #footer {
