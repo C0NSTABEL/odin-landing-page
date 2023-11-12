@@ -110,6 +110,7 @@ body {
 
 .img-div h3 {
     text-align: center;
+    font-size: 26px;
 }
 
 .recipe-list {
@@ -124,6 +125,12 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 8px;
+    font-size: 18px;
+    color: black;
+}
+
+.recipe-item:hover {
+    opacity: 75%;
 }
 
 .recipe-item img {
