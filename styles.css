@@ -145,6 +145,19 @@ body {
 
 #div2 {
     background-color: rgb(199, 229, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 26px;
+    color: rgb(75, 75, 75);
+}
+
+.quote-atr {
+    font-size: 20px;
+    align-self: flex-end;
+    margin-top: 0.75em;
 }
 
 #footer {
